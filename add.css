@@ -1,0 +1,66 @@
+body{
+  background-color: #B0C4DE;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  font-family: Montserrat;
+
+}
+#box {
+  position:absolute;
+    left:0;
+    right:0;
+    background-color: #E0FFFF; 
+    background-size: cover;
+    width: 50%;
+    margin: 50px auto;
+    border: 30px solid #6A5ACD;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    padding: 1%;
+    color: #00008B ;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+}
+#nav-bar {
+ margin-left: 120px; 
+  font-family: Comic Sans MS;
+}
+    li{
+  display:inline-block;
+    background:#B0C4DE;
+    padding:0.9em;
+    margin:0 0.3em;
+  }
+a{
+ color: #00008B;
+ text-decoration: none;
+}
+input{
+  width:50%;
+  box-sizing:border-box;
+  font-size:1em;
+  margin-left: 195px;
+  margin-bottom: 10px;
+  padding: 7px 5px 10px;
+  font-family: Comic Sans MS;
+}
+h2 {
+  color: #00008B;
+}
+#msg-area {
+  color: #00008B; background: #B0C4DE; padding: 10px; width: 400px; margin: 20px auto;
+  text-align: center;
+  font-family: Comic Sans MS;
+  display: none;
+  transition: all ease-in-out 1s;
+}
+#form-area, #address-book {
+  display: none;
+  font-family: Comic Sans MS;
+  color: #00008B;
+  width: 100%;
+  transition: all 1s ease-out;
+}
